@@ -1,0 +1,9 @@
+.input {
+  &__note {
+    border: 0;
+    width: 100%;
+    &:focus {
+      outline: 0;
+    }
+  }
+}

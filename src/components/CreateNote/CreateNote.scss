@@ -1,0 +1,13 @@
+@import '../../sass/utils/variables';
+
+.create {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  border: 1px solid $color--black;
+
+  &__close {
+    display: flex;
+    align-self: flex-end;
+  }
+}
