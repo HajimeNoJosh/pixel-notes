@@ -1,13 +1,8 @@
 @import '../../sass/utils/variables';
 
 .create {
+  border: 1px solid $color--black;
   display: flex;
   flex-direction: column;
   max-width: 40rem;
-  border: 1px solid $color--black;
-
-  &__close {
-    display: flex;
-    align-self: flex-end;
-  }
 }

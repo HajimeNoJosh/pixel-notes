@@ -4,9 +4,7 @@ import PropTypes from 'prop-types';
 import './Input.scss';
 
 export const Input = ({ className, placeholder, onClick }) => (
-  <div className="input">
-    <input className={className} placeholder={placeholder} onClick={onClick} />
-  </div>
+  <input className={className} placeholder={placeholder} onClick={onClick} />
 );
 
 Input.propTypes = {
